@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title> HTML Lesson 1 </title>
+
+<link href="file:///C:/Users/Cezana/Documents/Projects/formsstyle" type="text/css"
+rel="stylesheet" /> 
+
+</head>
+
+<center>
+    <body>
+    <h1> Creating Forms 101 </h1>
+
+<nav> 
+
+      <ul>
+        <li><a href="https://www.linkedin.com/in/cezana-roussel-34153816a/"> LinkedIn </a></li>
+        <li><a href="https://www.youtube.com/watch?v=yaKeFoNOneg"> Playlist </a></li>
+        <li><a href="https://github.com/cezanaroussel"> GitHub </a></li>
+      </ul>
+	  
+ 
+</nav>
+
+<br />
+          <form action="http://cezanaroussel.com/interview/php" method="get">
+
+            <fieldset>
+              <legend>
+                Your Information:
+                </legend>
+                <label>
+                  Name:
+                  <input type="text" name="name" size="30" maxlength="100">
+                  </label>
+                  <br />
+
+                  <label>
+                    Email:
+                    <input type="email" name="email" size="30" maxlength="100">
+                    </label>
+                    <br />
+					
+					
+                    </fieldset>
+<br />
+
+<center> <h2> About You: </h2> 
+
+                    <br />
+                    <fieldset>
+                      <legend>
+                        Programming Languages you wish to learn:
+                        </legend>
+
+                        <p>
+                          <label for="programming-languages">
+                            Which language?
+                            </label>
+                            <select name="referrer" id="programming-languages">
+                              <option value="Javascript"> Javascript </option>
+                              <option value="Python"> Python </option>
+                              <option value="Ruby"> Ruby </option>
+                              <option value="Java"> Java </option>
+                          </select>
+                        </p>
+
+              <p>
+                When would you like to start?
+                <br />
+                <label>
+                      <input type="radio" name="today" value="today" />
+                      Today
+                </label>
+
+                <label>
+                      <input type="radio" name="twoweeks" value="twoweeks" />
+                      Two Weeks
+                </label>
+
+                <label>
+                      <input type="radio" name="month" value="month" />
+                      Within the next few months
+                </label>
+                    <br />
+              <textarea rows="4" cols="40" id="additional">
+                  </textarea>
+                  </p>
+
+                    <label>
+                      <input type="submit" value="Submit" />
+                      </fieldset>
+                      </form>
+
+
+                      </body>
+                      </html>
+
+
+		
+		
